@@ -5,7 +5,7 @@ class AprendizController{
         try{
             $objDtoAprendiz = new Aprendiz();
             $objDtoAprendiz -> setNombre($nombre);
-            $objDtoAprendiz -> setFechaNaci($fechanaci);
+            $objDtoAprendiz -> setFechanaci($fechanaci);
             $objDtoAprendiz -> setSexo($sexo);
             $objDtoAprendiz -> setCiudad($ciudad);
 
@@ -43,7 +43,7 @@ class AprendizController{
             $objDtoAprendiz = new Aprendiz();
             $objDtoAprendiz -> setCodigo($codigo);
             $objDtoAprendiz -> setNombre($nombre);
-            $objDtoAprendiz -> setFechaNaci($fechanaci);
+            $objDtoAprendiz -> setFechanaci($fechanaci);
             $objDtoAprendiz -> setSexo($sexo);
             $objDtoAprendiz -> setCiudad($ciudad);
             $objDaoAprendiz = new AprendizModel($objDtoAprendiz);
