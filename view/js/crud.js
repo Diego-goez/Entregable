@@ -58,3 +58,23 @@ function getGeneraReporte(e){
     e.preventDefault();
 
 }
+
+function getData(obj){
+    let nombre = obj.children[1].innerHTML;
+    let fechanaci = obj.children[2].innerHTML;
+    let sexo = obj.children[3].innerHTML;
+    let ciudad = obj.children[4].innerHTML;
+    let codigo = obj.children[0].innerHTML;
+
+    document.getElementById("txtNombreM").value = nombre;
+    document.getElementById("txtFechanaciM").value = fechanaci;
+    document.getElementById("txtSexoM").value = sexo;
+    document.getElementById("txtCiudadM").value = ciudad;
+    document.getElementById("txtCodigoM").value = codigo;
+}
+function getGeneraReporte(e){
+    
+    window.open('view/module/allaprendiz.php','_blank');
+    e.preventDefault();
+
+}
