@@ -9,6 +9,9 @@
       case 'usuario':
         include_once 'view/module/user.php';
         break;
+        case 'aprendiz':
+          include_once 'view/module/aprendiz.php';
+          break;
       case 'erase':
         include_once 'view/module/erase.php';
         break;
